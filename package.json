@@ -1,0 +1,38 @@
+{
+  "name": "supreme-studios",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Supreme Studios — prophetic prayer, counseling and deliverance ministry (Ashaiman Klagon Road, Tema/Ashaiman, Ghana). Frontend-first single-page app with live audio stream, booking engine and service countdown.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.0",
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^0.468.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "postcss": "^8.4.49",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
